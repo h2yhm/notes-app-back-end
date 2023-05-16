@@ -4,7 +4,9 @@ To run the services (PostgreSQL): `docker-compose up`.
 
 To use determined node version, run `nvm use`.
 
-To run the node server: `npm run start-dev`.
+To run the node server in dev mode: `npm run start-dev`.
+
+To run the node server in prod mode: `npm run start-prod`.
 
 To run database migration:
    - `npm run migrate create ‘<migration name>’` to create new migration file.
