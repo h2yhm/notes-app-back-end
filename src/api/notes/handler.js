@@ -123,6 +123,7 @@ class NotesHandler {
   }
 
   async deleteNoteByIdHandler(request, h) {
+    console.log('======');
     try {
       const { id } = request.params;
       await this._service.deleteNoteById(id);
