@@ -11,7 +11,7 @@ const mapDBToModel = ({
   title,
   body,
   tags,
-  createrAt: created_at,
+  createdAt: created_at,
   updatedAt: updated_at,
   username,
 })
